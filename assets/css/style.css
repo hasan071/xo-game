@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    /* background-color: black; */
+    background-image: url(../images/xo\ image2.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    /* height: 31vh; */
+    background-color: rgba(255, 217, 0, 0.827);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 0px 0px 10px 7px goldenrod;
+    /* color: rgb(155, 0, 0); */
+}
+
+.container .xOrO {
+    width: 50%;
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.container .flex {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% auto;
+}
+
+.container .flex .btn {
+    width: 33.03%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.container .flex .btn:hover {
+    background-color: goldenrod;
+}
+
+.container .reset {
+    width: 27%;
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1%;
+    transition: 0.5s;
+}
+
+.container .reset:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+
+
+@media (max-width: 920px){
+    .container {
+        width: 60%;
+    }
+}
+@media (max-width: 650px){
+    .container {
+        width: 66%;
+    }
+}
+@media (max-width: 650px){
+    .container {
+        width: 60%;
+    }
+}
+@media (max-width: 650px){
+    .container {
+        width: 70%;
+    }
+}
+@media (max-width: 520px){
+    .container {
+        width: 77%;
+    }
+}
+@media (max-width: 460px){
+    .container {
+        width: 88%;
+    }
+}
+@media (max-width: 410px){
+    .container {
+        width: 93%;
+    }
+}
+@media (max-width: 370px){
+    .container {
+        width: 100%;
+    }
+}
